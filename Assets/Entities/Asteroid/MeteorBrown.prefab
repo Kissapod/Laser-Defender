@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4906467672873245817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4906467672873245812}
+  - component: {fileID: 4906467672873245813}
+  - component: {fileID: 4906467672873245814}
+  - component: {fileID: 4906467672873245816}
+  m_Layer: 0
+  m_Name: MeteorBrown
+  m_TagString: Target
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4906467672873245812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906467672873245817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &4906467672873245813
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906467672873245817}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &4906467672873245814
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906467672873245817}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.01, y: 0.84}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4906467672873245816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906467672873245817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fb86a26b150044488fb0f25d3afa08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorBigHP: 5000
+  meteorBigRate: 0.05
+  meteorBigSpeed: -0.5
+  meteorBigRotaton: 45
+  arriveBigSound: {fileID: 8300000, guid: 84653e50f32ae3a4c91954fbad3449be, type: 3}
+  meteorBigDestroy: {fileID: 5793848115506691088, guid: 82edd85846670ca4caa46e6ea1769062,
+    type: 3}
+  meteorBig:
+  - {fileID: 21300000, guid: 1d8ba6b71d8b1e349b0b1f1011cd92a3, type: 3}
+  - {fileID: 21300000, guid: 4c93d81bd6149b9449b5ba6856386a04, type: 3}
+  - {fileID: 21300000, guid: 6faa5300ca6d44a43b676a0dfb0f2f32, type: 3}
+  - {fileID: 21300000, guid: b1e3d75b51ee7dd4380bfbd4c1f5a33c, type: 3}
+  meteorMediumHP: 2500
+  meteorMediumRate: 0.1
+  meteorMediumSpeed: -1
+  meteorMediumRotaton: 60
+  arriveMediumSound: {fileID: 8300000, guid: c7ffcab9a29ad18438ec16f1fc560a4d, type: 3}
+  meteorMediumDestroy: {fileID: 5793848115506691088, guid: d5cb79ee1bee30a4ba3043fd1105ae96,
+    type: 3}
+  meteorMedium:
+  - {fileID: 21300000, guid: 096a203f64cc03e4897b5fd095255a24, type: 3}
+  - {fileID: 21300000, guid: 2632de9a2726179478cb45f0868887a2, type: 3}
+  meteorSmallHP: 1000
+  meteorSmallRate: 0.2
+  meteorSmallSpeed: -2
+  meteorSmallRotaton: 75
+  arriveSmallSound: {fileID: 8300000, guid: c7aaa8f6e02dd9f4883c72e81557887f, type: 3}
+  meteorSmallDestroy: {fileID: 5793848115506691088, guid: fe518c62fd299524e88614d95b77ec6d,
+    type: 3}
+  meteorSmall:
+  - {fileID: 21300000, guid: 4f069c39a83669d4e8d4932978a3879a, type: 3}
+  - {fileID: 21300000, guid: 94d3d33d2766801499a6cf7b5ba04af9, type: 3}
+  meteorTinyHP: 500
+  meteorTinyRate: 1
+  meteorTinySpeed: -3
+  meteorTinyRotaton: 90
+  arriveTinySound: {fileID: 8300000, guid: 9a0d53dcd0df2dc4b82c160b67405f31, type: 3}
+  meteorTinyDestroy: {fileID: 5793848115506691088, guid: a7b2cacba88623f4583686df08190f63,
+    type: 3}
+  meteorTiny:
+  - {fileID: 21300000, guid: 561dc154ec1c9894683f9b92920639c5, type: 3}
+  - {fileID: 21300000, guid: 31b54204ef8c9874f9fd4363749cc989, type: 3}
+  dropBonus: {fileID: 1932601984009691533, guid: d519c1a290370354788036a042b7c08a,
+    type: 3}
+  missileSound: {fileID: 8300000, guid: 29a35b344dbb46147af1c11651f6c199, type: 3}
+  collisionSound: {fileID: 8300000, guid: 86ad1b267693a4542a4103e9a5028ac9, type: 3}
+  health: 0
+  meteorHP: 0
+  meteorColor: {r: 0.6, g: 0.43921572, b: 0.33333334, a: 1}
+  megaExplosion: {fileID: 7540146412494367274, guid: e76d36706e2135549adb95fc9cff3540,
+    type: 3}
+  damageInfo: {fileID: 6329045132047598770, guid: aad0af3a55013be4fa3c2808856261c8,
+    type: 3}
